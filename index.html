@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- made by zamin irshad jan-->
+  <title>My Portflio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><strong>My Portfolio</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about"><strong>ABOUT</strong></a></li>
+        <li><a href="#resume"><strong>RESUME</strong></a></li>
+        <li><a href="#portfolio"><Strong>PROJECTS</Strong></a></li>
+        
+        <li><a href="#contact"><strong>CONTACT</strong></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  
+  <h1><strong>I'm <span class="myname">Zamin Irshad</span></strong></h1> 
+  <p><strong>Web Developer , UI/UX designer <br> based in Banglore,India </strong></p> 
+  
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About </h2><br>
+      <h4>Web development intern with experience in developing web applications using React, Node.js, Sveltekit. Experienced in working with clients to understand their requirements. Knowledgeable in Python programming, UX/UI design, and data analysis.</h4><br>
+      
+      <br><button   class="btn btn-default btn-lg" id="phonebutton"><a href="https://www.linkedin.com/in/zamin-irshad-jan-339912240" id="phonenm">LinkedIn</a> </button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Skills</h2><br>
+    </div>
+    <h4><strong>PYTHON :-</strong> 
+      Python is a versatile and easy-to-learn programming language, known for its simplicity, readability, and wide range of applications, including web development, scientific computing, data analysis, artificial intelligence, and automation.</h4><br>
+    
+    <h4><strong>REACT :-</strong> React is a popular JavaScript library for building efficient and scalable user interfaces with a component-based architecture.</h4><br>
+    
+    <h4><strong>Data Analysis :-</strong>
+      Data analytics is the process of collecting, processing, and analyzing large data sets to extract meaningful insights and inform data-driven decision making.</h4><br>
+    <h4><strong>JavaScript:-</strong>
+      JavaScript is a versatile, high-level, and interpreted programming language primarily used for web development. It was originally designed to add interactivity and dynamic elements to web pages, making them more engaging for users. Over time, JavaScript has evolved into a powerful and widely-used language, expanding beyond the web to various application domains.</h4><br>
+    <h4><strong>HTML/CSS:-</strong>
+      HTML (Hypertext Markup Language) is the standard markup language used to create the structure and content of web pages.<br>
+
+      CSS (Cascading Style Sheets) is a style sheet language used to control the presentation and layout of HTML documents.</h4><br>
+    
+  </div>
+</div>
+
+
+
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Projects</h2><br>
+  <h4>What I have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="image.avif" alt="project 1" width="400" height="300">
+        <p><strong>PROJRCT 1</strong></p>
+        <p>Made with html css</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="quizqq.png" alt="New York" width="400" height="300">
+        <p><strong>Project 2</strong></p>
+        <p>2nd Project</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="spotifyimage.png" alt="San Francisco" width="400" height="300">
+        <p><strong>3rd project</strong></p>
+        <p>Yes its 3rd</p>
+      </div>
+    </div>
+  </div><br>
+  
+ 
+   
+
+    
+<!-- Container (Contact Section) -->
+<div  class="container-fluid bg-grey" id="contact">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Lets Work Together .</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore,India</p>
+      
+      <p><button id="ebutton"> <a id="mailto" href="mailto:janzamin30@gmail.com">Send Mail</a> </button> </p>
+    </div>
+   
+  </div>
+</div>
+
+<!-- Footer -->
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
